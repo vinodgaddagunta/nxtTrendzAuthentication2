@@ -1,0 +1,40 @@
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: white;
+}
+.form-container {
+  background-color: #605f5d;
+  height: 350px;
+  width: 450px;
+  border-radius: 10px;
+  border: 2px solid #202021;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: white;
+  background-color: #1816c3;
+  padding: 15px;
+  border-width: 0px;
+  border-radius: 5px;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-heading {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.main-logo-container{
+  background-color: black;
+  height: 100vh;
+}
