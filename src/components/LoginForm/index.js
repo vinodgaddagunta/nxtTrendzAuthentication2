@@ -11,7 +11,7 @@ class LoginForm extends Component {
     console.log(response)
 
     if (response.ok === true) {
-      ;<Redirect to="https://hiring.reachinbox.xyz/api/v1/onebox/list" />
+      ;<Redirect to="/" />
     }
   }
 

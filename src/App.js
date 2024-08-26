@@ -8,20 +8,9 @@ import './App.css'
 const App = () => (
   <BrowserRouter>
     <Switch>
-      <Route
-        exact
-        path="https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://frontend.com"
-        component={LoginForm}
-      />
-      <Route
-        exact
-        path="https://hiring.reachinbox.xyz/api/v1/onebox/list"
-        component={EmailsList}
-      />
-      <Route
-        path="https://hiring.reachinbox.xyz/api/v1/onebox/messages/:thread_id"
-        component={EmailDetails}
-      />
+      <Route exact path="/login" component={LoginForm} />
+      <Route exact path="/" component={EmailsList} />
+      <Route path="/messages/:thread_id" component={EmailDetails} />
     </Switch>
   </BrowserRouter>
 )

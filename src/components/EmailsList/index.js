@@ -50,20 +50,20 @@ class EmailsList extends Component {
     console.log(isLoading)
 
     return (
-      <div className="blog-list-container">
+      <div className='blog-list-container'>
         <Header />
         {isLoading ? (
-          <div className="loading-container">
-            <div className="inner-container">
+          <div className='loading-container'>
+            <div className='inner-container'>
               <img
-                src="https://images.saymedia-content.com/.image/t_share/MTc0NDYxNTk4MTM4NjM5NzIw/warning-do-not-open-e-mails-with-these-characteristics.png"
-                className="image"
-                alt="email"
+                src='https://images.saymedia-content.com/.image/t_share/MTc0NDYxNTk4MTM4NjM5NzIw/warning-do-not-open-e-mails-with-these-characteristics.png'
+                className='image'
+                alt='email'
               />
-              <h1 className="heading">
+              <h1 className='heading'>
                 It is the beginning of a legendary application
               </h1>
-              <p className="para">
+              <p className='para'>
                 When you have inbound Emails you will see them here
               </p>
             </div>
